@@ -149,7 +149,7 @@ function construct_training_program(;
     fast_progressive_speed1=13.8, fast_progressive_speed2=16.0,
     racefit_duration=4*2*7, racefit_slow_gallop_distance_per_day=4800/30, racefit_fast_gallop_distance_per_day=3200/30, racefit_race_distance_per_day=800/7,
     racefit_slow_gallop_speed=13.8, racefit_fast_gallop_speed=16.0, racefit_race_speed=16.7,
-    slow_workout_distance_per_day=5200/30, slow_workout_speed=7.5
+    slow_workout_distance_per_day=2000, slow_workout_speed=7.5
     )
 
     rest = HomegeneousProgram(rest_duration,rest_distance_per_day,rest_speed)
