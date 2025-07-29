@@ -4,13 +4,12 @@
 This repository contains the Julia code required to generate the figures for the study *A mathematical model of metacarpal subchondral bone adaptation, microdamage, and repair in racehorses*. The following files will generate the results figures as indicated below:
 | Script                                 | Figures              |
 |----------------------------------------|----------------------|
+|`model_fitting.jl`                      | Fig. 3               |
 |`model_sensitivity.jl`                  | Figs. 4,S7,S9,S10    |
 |`detailed_training_program_results.jl`  | Fig. 6               |
 |`strain_speed.jl`                       | Fig. S2              |
 |`bone_remodelling.jl`                   | Figs. S3-S6          |
 |`adaptation_hill_figures.jl`            | Fig. S8              |
-
-The code and figures for calibrating the model to data has not been included.
 
 ## Instructions for running code
 The code can be run using a Julia installation, using the steps below. The code has been tested on Julia 1.11.1.
